@@ -7,7 +7,7 @@ using Dto.Dal;
 
 namespace Dal.Repositories
 {
-    public interface ICompanyRepository : IRepository<CompanyDto, Guid>
+    public interface IContractRepository : IRepository<ContractDto, Guid>
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dal.Entities
 {
-    public class ProjectTask 
+    public class ProjectTask : BaseEntity
     {
         public int TaskPosition { get; set; }
         public string TaskName { get; set; }

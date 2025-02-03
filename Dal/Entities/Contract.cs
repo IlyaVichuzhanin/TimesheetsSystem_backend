@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dal.Entities
 {
-    public class Contract 
+    public class Contract :  BaseEntity
     {
         public string ContractNumber { get; set; }
         public string ContractName { get; set; }
