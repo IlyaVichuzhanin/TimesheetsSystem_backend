@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "1sr6GwFoUN4=",
+  "success": true,
+  "projectFilePath": "D:\\MyProjects\\TimesheetsSystem_backend\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\jetbrains.annotations\\2024.3.0\\jetbrains.annotations.2024.3.0.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.1\\microsoft.extensions.configuration.binder.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.1\\microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\9.0.1\\microsoft.extensions.options.configurationextensions.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+    "C:\\Users\\VychuzhaninIA\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
