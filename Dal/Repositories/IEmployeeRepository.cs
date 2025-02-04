@@ -7,7 +7,7 @@ using Dto.Dal;
 
 namespace Dal.Repositories
 {
-    public interface IEmployeeRepository : IRepository<EmployeeDto, Guid>
+    public interface IEmployeeRepository : IRepository<EmployeeDal, Guid>
     {
     }
 }

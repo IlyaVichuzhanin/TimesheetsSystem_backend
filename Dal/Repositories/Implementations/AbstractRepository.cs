@@ -11,7 +11,7 @@ using Npgsql.Internal;
 namespace Dal.Repositories.Implementations
 {
     public class AbstractRepository<TModel, TPrimaryKey, TEntity> : IRepository<TModel, TPrimaryKey>
-        where TModel : class, IDto
+        where TModel : class, IDal
         where TEntity : class, IEntity<TPrimaryKey>
     {
         protected readonly TimesheetSystemDbContext _context;

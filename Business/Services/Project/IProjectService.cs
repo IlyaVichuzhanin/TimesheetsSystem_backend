@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dto.Business.Employee;
-using Dto.Business.Project;
+using Dto.Dto;
 
 namespace Business.Service.Project
 {

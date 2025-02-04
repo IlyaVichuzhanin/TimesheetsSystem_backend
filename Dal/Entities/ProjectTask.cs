@@ -12,10 +12,6 @@ namespace Dal.Entities
         public string TaskName { get; set; }
         public Project Project { get; set; }
         public Guid ProjectId { get; set; }
-        public Contract Contract { get; set; }
-        public Guid ContractId { get; set; }
-        public Company Company { get; set; }
-        public Guid CompanyId { get; set; }
         public Employee Employee { get; set; }
         public Guid EmployeeId { get; set; }
         public DateTime StartDate { get; set; }

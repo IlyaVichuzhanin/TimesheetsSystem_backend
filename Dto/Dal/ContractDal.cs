@@ -4,18 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dal.Entities
+namespace Dto.Dal
 {
-    public class Project : BaseEntity
+    public class ContractDal : BaseDal
     {
-        public string ProjectNumber { get; set; }
-        public string ProjectName { get; set; }
+        public string ContractNumber { get; set; }
+        public string ContractName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Description { get; set; }
-
-        public Contract Contract { get; set; }
-        public Guid ContractId { get; set; }
-
+        public CompanyDal Company { get; set; }
     }
 }

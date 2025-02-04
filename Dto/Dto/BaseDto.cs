@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dto.Dal
+namespace Dto.Business
 {
-    public interface IDto<TPrimaryKey>
+    public class BaseDto<TPrimaryKey>
     {
-        TPrimaryKey? Id { get; set; }
+        public TPrimaryKey? Id { get; set; }
     }
 
-    public interface IDto : IDto<Guid>
+    public class BaseDto : BaseDto<Guid>
     {
     }
 }

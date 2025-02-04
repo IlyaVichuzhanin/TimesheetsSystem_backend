@@ -8,21 +8,25 @@ using Dto.Dal;
 
 namespace Dal.Converters
 {
-    public class SoftwareModuleConverter : IConverter<SoftwareModuleDto, Guid, SoftwareModule>
+    public class SoftwareModuleConverter : IConverter<SoftwareModuleDal, Guid, SoftwareModule>
     {
-        public SoftwareModuleDto? Convert(SoftwareModule? entity)
+        public SoftwareModuleDal? Convert(SoftwareModule? entity)
         {
-            return new SoftwareModuleDto()
+            return new SoftwareModuleDal()
             {
                 Id=entity.Id,
                 SoftwareModuleName = entity.SoftwareModuleName,
-                Software = new SoftwareDto() {Id = entity.SoftwareId}
+                Software = new SoftwareDal()
+                {
+                    Id= entity.SoftwareId,
+                    SoftwareName = entity.Software.SoftwareName
+                }
             };
 
         }
 
 
-        public SoftwareModule Convert(SoftwareModuleDto model)
+        public SoftwareModule Convert(SoftwareModuleDal model)
         {
             return new SoftwareModule()
             {

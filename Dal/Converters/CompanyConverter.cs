@@ -8,19 +8,24 @@ using Dto.Dal;
 
 namespace Dal.Converters
 {
-    public class CompanyConverter : IConverter<CompanyDto, Guid, Company>
+    public class CompanyConverter : IConverter<CompanyDal, Guid, Company>
     {
-        public CompanyDto? Convert(Company? entity) => entity is not null? new CompanyDto()
+        public CompanyDal? Convert(Company? entity)
         {
-            Id=entity.Id,
-            CompanyName = entity.CompanyName
-        } : null;
+            return new CompanyDal()
+            {
+                Id=entity.Id,
+                CompanyName = entity.CompanyName
+            };
+        }
 
-        public Company Convert(CompanyDto model)
-            => new()
+        public Company Convert(CompanyDal model)
+        {
+            return new Company()
             {
                 Id = model.Id,
-                CompanyName = model.CompanyName,
+                CompanyName = model.CompanyName
             };
+        }
     }
 }

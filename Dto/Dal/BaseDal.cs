@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dto.Business.Software
+namespace Dto.Dal
 {
-    public class SoftwareDto : BaseDto
+    public class BaseDal : IDal
     {
-        public string SoftwareName { get; set; }
+        public Guid Id { get; set; }
     }
 }

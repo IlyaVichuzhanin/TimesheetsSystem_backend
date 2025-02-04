@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dto.Dal
 {
-    public class CompanyDto : BaseDto
+    public class CompanyDal : BaseDal
     {
         public string CompanyName { get; set; }
     }

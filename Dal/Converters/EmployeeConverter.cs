@@ -8,18 +8,18 @@ using Dto.Dal;
 
 namespace Dal.Converters
 {
-    public class EmployeeConverter : IConverter<EmployeeDto, Guid, Employee>
+    public class EmployeeConverter : IConverter<EmployeeDal, Guid, Employee>
     {
-        public EmployeeDto? Convert(Employee? entity)
+        public EmployeeDal? Convert(Employee? entity)
         {
-            return new EmployeeDto()
+            return new EmployeeDal()
             {
                Id=entity.Id,
                FirstName=entity.FirstName,
                LastName=entity.LastName,
                Patronymic = entity.Patronymic,
                PersonelNumber = entity.PersonelNumber,
-               Company = new CompanyDto()
+               Company = new CompanyDal()
                {
                    Id=entity.CompanyId,
                    CompanyName = entity.Company.CompanyName
@@ -28,7 +28,7 @@ namespace Dal.Converters
             };
         }
 
-        public Employee Convert(EmployeeDto model)
+        public Employee Convert(EmployeeDal model)
         {
             return new Employee()
             {

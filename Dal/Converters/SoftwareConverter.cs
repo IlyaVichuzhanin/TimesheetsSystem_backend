@@ -8,16 +8,24 @@ using Dto.Dal;
 
 namespace Dal.Converters
 {
-    public class SoftwareConverter : IConverter<SoftwareDto, Guid, Software>
+    public class SoftwareConverter : IConverter<SoftwareDal, Guid, Software>
     {
-        public SoftwareDto? Convert(Software? entity)
+        public SoftwareDal? Convert(Software? entity)
         {
-            throw new NotImplementedException();
+            return new SoftwareDal()
+            {
+                Id=entity.Id,
+                SoftwareName = entity.SoftwareName,
+            };
         }
 
-        public Software Convert(SoftwareDto model)
+        public Software Convert(SoftwareDal model)
         {
-            throw new NotImplementedException();
+            return new Software()
+            {
+                Id = model.Id,
+                SoftwareName = model.SoftwareName,
+            };
         }
     }
 }

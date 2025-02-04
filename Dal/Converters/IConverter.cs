@@ -8,11 +8,11 @@ using Dal.Entities;
 
 namespace Dal.Converters
 {
-    public interface IConverter<TModel, TPrimaryKey, TEntity>
-        where TModel : IDto
+    public interface IConverter<TDal, TPrimaryKey, TEntity>
+        where TDal : IDal
         where TEntity : IEntity<TPrimaryKey>
     {
-        TModel? Convert(TEntity? entity);
-        TEntity Convert(TModel model);
+        TDal? Convert(TEntity? entity);
+        TEntity Convert(TDal model);
     }
 }

@@ -1,4 +1,4 @@
-﻿using Dto.Business.Company;
+﻿using Dto.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;

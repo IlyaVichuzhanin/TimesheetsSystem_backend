@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Dto.Dal
 {
-    public class SoftwareModuleDto : BaseDto
+    public class SoftwareDal : BaseDal
     {
-        public string SoftwareModuleName { get; set; }
-        public SoftwareDto Software { get; set; }
+        public string SoftwareName { get; set; }
     }
 }

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Dto.Dal
 {
-    public class BaseDto : IDto
+    public interface IDal<TPrimaryKey>
     {
-        public Guid Id { get; set; }
+        TPrimaryKey? Id { get; set; }
+    }
+
+    public interface IDal : IDal<Guid>
+    {
     }
 }

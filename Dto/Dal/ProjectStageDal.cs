@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace Dto.Dal
 {
-    public class ProjectStageDto : BaseDto
+    public class ProjectStageDal : BaseDal
     {
         public int Stage { get; set; }
         public string StageName { get; set; }
-        public ProjectDto Project { get; set; }
-        public ContractDto Contract { get; set; }
-        public CompanyDto Company { get; set; }
+        public string Description { get; set; }
+        public ProjectDal Project { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
 
 
     }

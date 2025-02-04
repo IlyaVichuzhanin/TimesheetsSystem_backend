@@ -8,24 +8,28 @@ using Dto.Dal;
 
 namespace Dal.Converters
 {
-    public class ContractConverter : IConverter<ContractDto, Guid, Contract>
+    public class ContractConverter : IConverter<ContractDal, Guid, Contract>
     {
-        public ContractDto? Convert(Contract? entity)
+        public ContractDal? Convert(Contract? entity)
         {
-            return new ContractDto()
+            return new ContractDal()
             {
                 Id=entity.Id,
                 ContractName = entity.ContractName,
-                Company = new CompanyDto()
+                ContractNumber = entity.ContractNumber,
+                StartDate = entity.StartDate,
+                EndDate = entity.EndDate,
+                Description = entity.Description,
+                Company = new CompanyDal()
                 {
-                    Id=entity.Id, 
+                    Id=entity.CompanyId, 
                     CompanyName = entity.Company.CompanyName
                 }
 
             };
         }
 
-        public Contract Convert(ContractDto model)
+        public Contract Convert(ContractDal model)
         {
 
             return new Contract()
@@ -33,6 +37,9 @@ namespace Dal.Converters
                 Id=model.Id,
                 ContractName = model.ContractName,
                 ContractNumber = model.ContractNumber,
+                StartDate = model.StartDate,
+                EndDate = model.EndDate,
+                Description = model.Description,
                 CompanyId = model.Company.Id,
                 Company = new Company()
                 {

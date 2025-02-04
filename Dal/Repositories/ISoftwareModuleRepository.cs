@@ -7,7 +7,7 @@ using Dto.Dal;
 
 namespace Dal.Repositories
 {
-    public interface ISoftwareModuleRepository : IRepository<SoftwareModuleDto, Guid>
+    public interface ISoftwareModuleRepository : IRepository<SoftwareModuleDal, Guid>
     {
     }
 }

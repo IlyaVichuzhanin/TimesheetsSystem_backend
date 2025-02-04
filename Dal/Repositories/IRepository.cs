@@ -10,7 +10,7 @@ using Task = System.Threading.Tasks.Task;
 namespace Dal.Repositories
 {
     public interface IRepository<TModel, in TPrimaryKey>
-        where TModel : class, IDto
+        where TModel : class, IDal
     {
         public Task SaveChangeAsync(CancellationToken cancellationToken = default);
         public Task<TModel?> GetByIdAsync(TPrimaryKey id, CancellationToken cancellationToken = default);

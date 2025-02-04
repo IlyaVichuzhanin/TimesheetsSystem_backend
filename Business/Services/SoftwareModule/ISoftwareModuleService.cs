@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dto.Business.Software;
-using Dto.Business.SoftwareModule;
+using Dto.Dto;
 
 namespace Business.Service.SoftwareModule
 {

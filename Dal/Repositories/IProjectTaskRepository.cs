@@ -7,7 +7,7 @@ using Dto.Dal;
 
 namespace Dal.Repositories
 {
-    public interface IProjectTaskRepository : IRepository<ProjectTaskDto, Guid>
+    public interface IProjectTaskRepository : IRepository<ProjectTaskDal, Guid>
     {
     }
 }
