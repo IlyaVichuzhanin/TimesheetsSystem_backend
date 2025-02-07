@@ -1146,6 +1146,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Dal": "1.0.0",
           "Dto": "1.0.0"
         },
         "compile": {

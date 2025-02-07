@@ -142,6 +142,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Dal.csproj": {
+                "projectPath": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Dal.csproj"
+              },
               "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto.csproj": {
                 "projectPath": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto.csproj"
               }

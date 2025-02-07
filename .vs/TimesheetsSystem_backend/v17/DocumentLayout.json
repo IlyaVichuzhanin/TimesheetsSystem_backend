@@ -3,80 +3,88 @@
   "WorkspaceRootPath": "D:\\MyProjects\\TimesheetsSystem_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\softwaremoduleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\softwaremoduleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\implementations\\companyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\implementations\\companyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|d:\\myprojects\\timesheetssystem_backend\\dto\\dto\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|solutionrelative:dto\\dto\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\isoftwaremoduleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\isoftwaremoduleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\isoftwareconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\isoftwareconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\iprojecttaskconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\iprojecttaskconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\iprojectstageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\iprojectstageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\iprojectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\iprojectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\iemployeeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\iemployeeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\icontractconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\icontractconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|d:\\myprojects\\timesheetssystem_backend\\business\\converters\\icompanyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FC54FB4-09DE-43C7-BA2A-A2F210969A2D}|Business\\Business.csproj|solutionrelative:business\\converters\\icompanyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\companyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\companyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\softwaremoduleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\softwaremoduleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\softwareconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\softwareconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\projecttaskconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\projecttaskconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\projectstageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\projectstageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\employeeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\employeeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\contractconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\contractconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|d:\\myprojects\\timesheetssystem_backend\\dto\\dal\\softwaremoduledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|solutionrelative:dto\\dal\\softwaremoduledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\softwareconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\softwareconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\projectconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\projectstageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\projectstageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\projecttaskconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\projecttaskconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|d:\\myprojects\\timesheetssystem_backend\\dto\\dal\\projecttaskdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|solutionrelative:dto\\dal\\projecttaskdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\softwaremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\softwaremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\software.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\software.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\employeeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\employeeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\projectstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\projectstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\contractconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\contractconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\companyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\companyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\converters\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\converters\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|d:\\myprojects\\timesheetssystem_backend\\dal\\convertersentitytodal\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F27602D-AB52-41CC-81BF-814BF7DF48EE}|Dal\\Dal.csproj|solutionrelative:dal\\convertersentitytodal\\iconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|d:\\myprojects\\timesheetssystem_backend\\dto\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|d:\\myprojects\\timesheetssystem_backend\\dto\\dal\\companydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|solutionrelative:dto\\dal\\companydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|d:\\myprojects\\timesheetssystem_backend\\dto\\dto\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{382862D9-FA53-4491-9B43-712901B96BBB}|Dto\\Dto.csproj|solutionrelative:dto\\dto\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -239,84 +243,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProjectTaskConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ProjectTaskConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\ProjectTaskConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ProjectTaskConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\ProjectTaskConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Title": "IProjectStageConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IProjectStageConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\IProjectStageConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IProjectStageConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\IProjectStageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:19:22.08Z",
+              "WhenOpened": "2025-02-07T12:20:11.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProjectStageConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ProjectStageConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\ProjectStageConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ProjectStageConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\ProjectStageConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAA3AAAAAAAAAA==",
+              "Title": "IProjectTaskConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IProjectTaskConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\IProjectTaskConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IProjectTaskConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\IProjectTaskConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:11:33.507Z",
+              "WhenOpened": "2025-02-07T12:26:07.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProjectConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ProjectConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\ProjectConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ProjectConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\ProjectConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Title": "ISoftwareConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\ISoftwareConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\ISoftwareConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\ISoftwareConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\ISoftwareConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:04:30.501Z",
+              "WhenOpened": "2025-02-07T12:22:15.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SoftwareConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\SoftwareConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\SoftwareConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\SoftwareConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\SoftwareConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "ISoftwareModuleConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\ISoftwareModuleConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\ISoftwareModuleConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\ISoftwareModuleConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\ISoftwareModuleConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:25:54.689Z",
+              "WhenOpened": "2025-02-07T12:23:44.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SoftwareModuleConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\SoftwareModuleConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\SoftwareModuleConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\SoftwareModuleConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\SoftwareModuleConverter.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Title": "CompanyConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\Implementations\\CompanyConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\Implementations\\CompanyConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\Implementations\\CompanyConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\Implementations\\CompanyConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:27:04.906Z",
+              "WhenOpened": "2025-02-07T12:30:50.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Dto\\CompanyDto.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\CompanyDto.cs",
+              "RelativeToolTip": "Dto\\Dto\\CompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:43:59.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProjectConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IProjectConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\IProjectConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IProjectConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\IProjectConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:18:41.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployeeConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IEmployeeConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\IEmployeeConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IEmployeeConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\IEmployeeConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:17:19.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IContractConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IContractConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\IContractConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\IContractConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\IContractConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:15:42.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICompanyConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\ICompanyConverter.cs",
+              "RelativeDocumentMoniker": "Business\\Converters\\ICompanyConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Business\\Converters\\ICompanyConverter.cs",
+              "RelativeToolTip": "Business\\Converters\\ICompanyConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T12:11:45.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "SoftwareModuleDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\SoftwareModuleDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\SoftwareModuleDal.cs",
               "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\SoftwareModuleDal.cs",
               "RelativeToolTip": "Dto\\Dal\\SoftwareModuleDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T12:27:49.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "ProjectTaskDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\ProjectTaskDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\ProjectTaskDal.cs",
@@ -324,51 +393,11 @@
               "RelativeToolTip": "Dto\\Dal\\ProjectTaskDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:49:25.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:49:25.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\EmployeeConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\EmployeeConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\EmployeeConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\EmployeeConverter.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T12:25:13.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ContractConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ContractConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\ContractConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\ContractConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\ContractConverter.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:59:45.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CompanyConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\CompanyConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\CompanyConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\CompanyConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\CompanyConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:56:58.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\IDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\IDal.cs",
@@ -376,25 +405,23 @@
               "RelativeToolTip": "Dto\\Dal\\IDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:56:27.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IConverter.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\IConverter.cs",
-              "RelativeDocumentMoniker": "Dal\\Converters\\IConverter.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Converters\\IConverter.cs",
-              "RelativeToolTip": "Dal\\Converters\\IConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:55:06.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:56:27.05Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "IConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\IConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\IConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\IConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\IConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:55:06.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "SoftwareModuleDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\SoftwareModuleDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\SoftwareModuleDto.cs",
@@ -402,12 +429,11 @@
               "RelativeToolTip": "Dto\\Dto\\SoftwareModuleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:54:09.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:54:09.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "SoftwareDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\SoftwareDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\SoftwareDto.cs",
@@ -415,12 +441,11 @@
               "RelativeToolTip": "Dto\\Dto\\SoftwareDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:53:35.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:53:35.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "SoftwareDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\SoftwareDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\SoftwareDal.cs",
@@ -428,12 +453,11 @@
               "RelativeToolTip": "Dto\\Dal\\SoftwareDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:53:34.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:53:34.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "EmployeeDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\EmployeeDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\EmployeeDto.cs",
@@ -441,12 +465,11 @@
               "RelativeToolTip": "Dto\\Dto\\EmployeeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:51:23.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:51:23.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "EmployeeDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\EmployeeDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\EmployeeDal.cs",
@@ -454,12 +477,11 @@
               "RelativeToolTip": "Dto\\Dal\\EmployeeDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:51:21.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:51:21.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ProjectTaskDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\ProjectTaskDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\ProjectTaskDto.cs",
@@ -467,12 +489,11 @@
               "RelativeToolTip": "Dto\\Dto\\ProjectTaskDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:49:28.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:49:28.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ProjectStageDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\ProjectStageDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\ProjectStageDto.cs",
@@ -480,12 +501,11 @@
               "RelativeToolTip": "Dto\\Dto\\ProjectStageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:47:51.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:47:51.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ProjectStageDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\ProjectStageDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\ProjectStageDal.cs",
@@ -493,12 +513,11 @@
               "RelativeToolTip": "Dto\\Dal\\ProjectStageDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:47:50.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:47:50.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ProjectDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\ProjectDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\ProjectDto.cs",
@@ -506,12 +525,11 @@
               "RelativeToolTip": "Dto\\Dto\\ProjectDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:45:41.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:45:41.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ProjectDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\ProjectDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\ProjectDal.cs",
@@ -519,12 +537,11 @@
               "RelativeToolTip": "Dto\\Dal\\ProjectDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:45:39.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:45:39.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ContractDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\ContractDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\ContractDal.cs",
@@ -532,12 +549,11 @@
               "RelativeToolTip": "Dto\\Dal\\ContractDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:44:17.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:44:17.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ContractDto.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\ContractDto.cs",
               "RelativeDocumentMoniker": "Dto\\Dto\\ContractDto.cs",
@@ -545,25 +561,11 @@
               "RelativeToolTip": "Dto\\Dto\\ContractDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:44:15.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:44:15.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CompanyDto.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\CompanyDto.cs",
-              "RelativeDocumentMoniker": "Dto\\Dto\\CompanyDto.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dto\\CompanyDto.cs",
-              "RelativeToolTip": "Dto\\Dto\\CompanyDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:43:59.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "CompanyDal.cs",
               "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dto\\Dal\\CompanyDal.cs",
               "RelativeDocumentMoniker": "Dto\\Dal\\CompanyDal.cs",
@@ -571,8 +573,7 @@
               "RelativeToolTip": "Dto\\Dal\\CompanyDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T11:43:57.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T11:43:57.984Z"
             }
           ]
         }
@@ -582,121 +583,121 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "1642b9a2-726b-43e0-92ec-af1dec358640",
+        "Id": "1635602c-af98-4643-aa9b-cd83a178076c",
         "Display": 1,
-        "X": 257,
-        "Y": 271,
+        "X": 70,
+        "Y": 52,
         "Width": 1230,
-        "Height": 745,
+        "Height": 847,
         "WindowState": 2
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompanyConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\CompanyConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\CompanyConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\CompanyConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\CompanyConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:56:58.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Company.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Company.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\Company.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Company.cs",
-              "RelativeToolTip": "Dal\\Entities\\Company.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "ContractConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ContractConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\ContractConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ContractConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\ContractConverter.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:32:03.265Z",
+              "WhenOpened": "2025-02-04T11:59:45.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Contract.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Contract.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\Contract.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Contract.cs",
-              "RelativeToolTip": "Dal\\Entities\\Contract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "EmployeeConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\EmployeeConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\EmployeeConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\EmployeeConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\EmployeeConverter.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:28:59.464Z",
+              "WhenOpened": "2025-02-04T12:25:13.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Project.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Project.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\Project.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Project.cs",
-              "RelativeToolTip": "Dal\\Entities\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "ProjectConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ProjectConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\ProjectConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ProjectConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\ProjectConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:43:37.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProjectStage.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\ProjectStage.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\ProjectStage.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\ProjectStage.cs",
-              "RelativeToolTip": "Dal\\Entities\\ProjectStage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:45:12.337Z",
+              "WhenOpened": "2025-02-04T12:04:30.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ProjectTask.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\ProjectTask.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\ProjectTask.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\ProjectTask.cs",
-              "RelativeToolTip": "Dal\\Entities\\ProjectTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "SoftwareModuleConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\SoftwareModuleConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\SoftwareModuleConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\SoftwareModuleConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\SoftwareModuleConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:47:59.223Z",
+              "WhenOpened": "2025-02-04T12:27:04.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Employee.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\Employee.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Employee.cs",
-              "RelativeToolTip": "Dal\\Entities\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ProjectTaskConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ProjectTaskConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\ProjectTaskConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ProjectTaskConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\ProjectTaskConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:23:09.792Z",
+              "WhenOpened": "2025-02-04T12:19:22.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Software.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Software.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\Software.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\Software.cs",
-              "RelativeToolTip": "Dal\\Entities\\Software.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "SoftwareConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\SoftwareConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\SoftwareConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\SoftwareConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\SoftwareConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:33:39.352Z",
+              "WhenOpened": "2025-02-04T12:25:54.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SoftwareModule.cs",
-              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\SoftwareModule.cs",
-              "RelativeDocumentMoniker": "Dal\\Entities\\SoftwareModule.cs",
-              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\Entities\\SoftwareModule.cs",
-              "RelativeToolTip": "Dal\\Entities\\SoftwareModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "ProjectStageConverter.cs",
+              "DocumentMoniker": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ProjectStageConverter.cs",
+              "RelativeDocumentMoniker": "Dal\\ConvertersEntityToDal\\ProjectStageConverter.cs",
+              "ToolTip": "D:\\MyProjects\\TimesheetsSystem_backend\\Dal\\ConvertersEntityToDal\\ProjectStageConverter.cs",
+              "RelativeToolTip": "Dal\\ConvertersEntityToDal\\ProjectStageConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T10:36:04.21Z",
+              "WhenOpened": "2025-02-04T12:11:33.507Z",
               "EditorCaption": ""
             }
           ]
