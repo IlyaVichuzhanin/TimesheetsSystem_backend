@@ -11,7 +11,7 @@ namespace Business.Converters
 {
     public interface IContractConverter
     {
-        ContractDal Convert(ContractDto  contract);
-        ContractDto Convert(ContractDal contract);
+        ContractDal Convert(ContractDto  dto);
+        ContractDto Convert(ContractDal dal);
     }
 }

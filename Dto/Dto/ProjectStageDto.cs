@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dto.Business;
 
 namespace Dto.Dto
 {
-    public class ProjectStageDto
+    public class ProjectStageDto : BaseDto
     {
         public int Stage { get; set; }
         public string StageName { get; set; }

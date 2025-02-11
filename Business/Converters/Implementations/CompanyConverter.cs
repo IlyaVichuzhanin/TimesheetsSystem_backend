@@ -11,21 +11,21 @@ namespace Business.Converters.Implementations
 {
     public class CompanyConverter : ICompanyConverter
     {
-        public CompanyDto? Convert(CompanyDal? entity)
+        public CompanyDto? Convert(CompanyDal? dal)
         {
             return new CompanyDto()
             {
-                Id = entity.Id,
-                CompanyName = entity.CompanyName
+                Id = dal.Id,
+                CompanyName = dal.CompanyName
             };
         }
 
-        public CompanyDal Convert(CompanyDto model)
+        public CompanyDal Convert(CompanyDto dto)
         {
             return new CompanyDal()
             {
-                Id = model.Id,
-                CompanyName = model.CompanyName
+                Id = dto.Id,
+                CompanyName = dto.CompanyName
             };
         }
     }

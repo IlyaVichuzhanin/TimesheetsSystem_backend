@@ -11,7 +11,7 @@ namespace Business.Converters
 {
     public interface IProjectConverter
     {
-        ProjectDal Convert(ProjectDto project);
-        ProjectDto Convert(ProjectDal project);
+        ProjectDal Convert(ProjectDto dto);
+        ProjectDto Convert(ProjectDal dal);
     }
 }

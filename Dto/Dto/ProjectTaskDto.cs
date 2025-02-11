@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dto.Business;
 
 namespace Dto.Dto
 {
-    public class ProjectTaskDto
+    public class ProjectTaskDto : BaseDto
     {
         public int TaskPosition { get; set; }
         public string TaskName { get; set; }

@@ -11,7 +11,7 @@ namespace Business.Converters
 {
     public interface IEmployeeConverter
     {
-        EmployeeDto Convert(EmployeeDal employee);
-        EmployeeDal Convert(EmployeeDto employee);
+        EmployeeDto Convert(EmployeeDal dal);
+        EmployeeDal Convert(EmployeeDto dto);
     }
 }

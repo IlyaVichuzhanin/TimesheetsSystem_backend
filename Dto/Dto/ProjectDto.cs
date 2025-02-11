@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dto.Business;
 
 namespace Dto.Dto
 {
-    public class ProjectDto
+    public class ProjectDto : BaseDto
     {
         public string ProjectNumber { get; set; }
         public string ProjectName { get; set; }

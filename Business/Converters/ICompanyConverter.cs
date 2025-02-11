@@ -11,8 +11,8 @@ namespace Business.Converters
 {
     public interface ICompanyConverter
     {
-        CompanyDto Convert(CompanyDal company);
+        CompanyDto Convert(CompanyDal dal);
 
-        CompanyDal Convert(CompanyDto company);
+        CompanyDal Convert(CompanyDto dto);
     }
 }
