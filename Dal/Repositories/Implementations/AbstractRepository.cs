@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dal.Converters;
 using Dal.Entities;
+using Dal.Specification;
 using Microsoft.EntityFrameworkCore;
 using Npgsql.Internal;
 
@@ -16,7 +18,7 @@ namespace Dal.Repositories.Implementations
     {
         protected readonly TimesheetSystemDbContext _context;
         protected readonly DbSet<TEntity> DbSet;
-        //protected readonly IConverter<TModel, TPrimaryKey, TEntity> _converter;
+        protected readonly IConverter<TModel, TPrimaryKey, TEntity> _converter;
         protected IQueryable<TEntity> DbQuery => DbSet.AsNoTracking().IgnoreAutoIncludes();
 
         public AbstractRepository(TimesheetSystemDbContext context, IConverter<TModel, TPrimaryKey, TEntity> converter)
@@ -27,39 +29,61 @@ namespace Dal.Repositories.Implementations
         }
 
 
-        public Task<TModel> AddAsync(TModel model, CancellationToken cancellationToken = default)
+        public async Task<TModel> AddAsync(TModel model, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            var entryEntity = await DbSet.AddAsync(_converter.Convert(model), cancellationToken);
+            await SaveChangeAsync(cancellationToken);
+            return _converter.Convert(entryEntity.Entity);
         }
 
-        public Task<TModel> AddOrUpdateAsync(TModel model, CancellationToken cancellationToken = default)
+        public async Task<TModel> AddOrUpdateAsync(TModel model, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            if (model.Id==Guid.Empty)
+            {
+                return await AddAsync(model, cancellationToken);
+            }
+
+            return await Update(model, cancellationToken);
         }
 
-        public System.Threading.Tasks.Task Delete(TPrimaryKey id, CancellationToken cancellationToken = default)
+        public async Task Delete(TPrimaryKey id, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            DbSet.Remove(_converter.Convert(await GetByIdAsync(id)));
+            await SaveChangeAsync(cancellationToken);
         }
 
-        public Task<IReadOnlyCollection<TModel>> GetAllAsync(CancellationToken cancellationToken = default)
+        public async Task<IReadOnlyCollection<TModel>> GetAllAsync(CancellationToken cancellationToken = default)
+            => (await DbQuery
+                .ToArrayAsync(cancellationToken)).Select(x => _converter.Convert(x)).ToArray();
+
+        public async Task<TModel?> GetByIdAsync(TPrimaryKey id, CancellationToken cancellationToken = default)
+
         {
-            throw new NotImplementedException();
+            return _converter.Convert(await DbQuery.FirstOrDefaultAsync(new IdSpecification<TEntity, TPrimaryKey>(id),
+                cancellationToken));
         }
 
-        public Task<TModel?> GetByIdAsync(TPrimaryKey id, CancellationToken cancellationToken = default)
+        public async Task SaveChangeAsync(CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            await _context.SaveChangesAsync(cancellationToken);
         }
 
-        public System.Threading.Tasks.Task SaveChangeAsync(CancellationToken cancellationToken = default)
+        public async Task<TModel> Update(TModel model, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
-        }
+            var newEntity = _converter.Convert(model);
+            var entity = DbSet.Local.FirstOrDefault(new IdSpecification<TEntity, TPrimaryKey>(newEntity.Id));
+            if (entity is null)
+            {
+                entity = newEntity;
+                DbSet.Update(entity);
+            }
+            else
+            {
+                _context.Entry(entity).CurrentValues.SetValues(newEntity);
+            }
 
-        public Task<TModel> Update(TModel model, CancellationToken cancellationToken = default)
-        {
-            throw new NotImplementedException();
+            await SaveChangeAsync(cancellationToken);
+            return _converter.Convert(entity);
         }
     }
 }

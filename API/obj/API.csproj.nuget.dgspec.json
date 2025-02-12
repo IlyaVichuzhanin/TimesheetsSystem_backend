@@ -382,6 +382,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "D:\\MyProjects\\TimesheetsSystem_backend\\Common\\Common.csproj": {
+                "projectPath": "D:\\MyProjects\\TimesheetsSystem_backend\\Common\\Common.csproj"
+              },
               "D:\\MyProjects\\TimesheetsSystem_backend\\Core\\Core.csproj": {
                 "projectPath": "D:\\MyProjects\\TimesheetsSystem_backend\\Core\\Core.csproj"
               },

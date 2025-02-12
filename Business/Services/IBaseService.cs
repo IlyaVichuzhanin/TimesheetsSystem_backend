@@ -11,7 +11,7 @@ namespace Business.Service
     {
         Task<IReadOnlyCollection<T>> ListAsync();
         Task<T> CreateOrUpdateAsync(T dto);
-       System.Threading.Tasks.Task Delete(long id);
-        Task<T> GetAsync(long id);
+        System.Threading.Tasks.Task Delete(Guid id);
+        Task<T> GetAsync(Guid id);
     }
 }
